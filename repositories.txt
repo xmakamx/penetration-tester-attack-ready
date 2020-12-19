@@ -1,0 +1,1000 @@
+echo Updating Distribution 
+sudo apt-get install kali-linux-full -y
+sudo apt-get update && sudo apt-get upgrade -y
+sudo apt-get upgrade -y 
+sudo apt-get update
+
+echo Installing Convenient Applications 
+sudo apt-get install terminator -y
+sudo apt-get install tilix
+sudo apt-get install syncthing
+sudo apt-get install bloodhound
+sudo apt-get install armitage -y
+sudo apt-get install seclists -y
+sudo apt-get install hostapd -y
+sudo apt-get install lighthttpd -y
+sudo apt-get install php-cgi -y
+sudo apt-get install pyrit -y
+sudo apt-get install synaptic -y
+sudo apt-get install at -y
+sudo apt-get install python3-pip -y
+sudo apt-get install p0f -y
+sudo apt-get install apache2 -y
+sudo apt-get install postgresql -y
+sudo apt-get install bluez -y
+sudo apt-get install rcconf -y
+sudo apt-get install armitage -y
+sudo apt-get install tcptrack -y
+sudo apt-get install tor -y
+sudo apt-get install pyinstaller -y
+sudo apt-get install geany -y
+sudo apt-get install hostapd dnsmasq -y
+sudo apt-get install hostapd-wpe -y
+sudo apt-get install postgresql-10 -y
+sudo apt-get install postgresql-client-10 -y
+sudo apt-get install terminator -y
+sudo apt-get install realtek-rtl88xxau-dkms -y
+sudo apt-get install mitmf -y
+sudo apt-get install mana-toolkit -y
+sudo apt-get install gvfs gvfs-backends gvfs-common gvfs-fuse -y 
+sudo apt-get install x11vnc -y
+sudo apt-get install terminator -y
+sudo apt-get install armitage -y
+sudo apt-get install python-pip -y
+sudo apt-get install seclists -y 
+sudo apt-get install hostapd -y
+sudo apt-get install lighthttpd -y
+sudo apt-get install php-cgi -y
+sudo apt-get install pyrit -y
+sudo apt-get install openvas -y 
+sudo apt-get install veil -y
+sudo apt-get install net-tools -y
+sudo apt-get install gobuster -y 
+
+echo Installing sublime text
+wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+sudo apt-get install apt-transport-https
+echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+sudo apt-get update
+sudo apt-get install sublime-text
+
+echo Installing Docker
+sudo apt -y install curl gnupg2 apt-transport-https software-properties-common ca-certificates 
+curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
+echo "deb [arch=amd64] https://download.docker.com/linux/debian buster stable" | sudo tee  /etc/apt/sources.list.d/docker.list
+sudo apt-get update
+sudo apt install docker-ce docker-ce-cli containerd.io -y
+sudo docker run hello-world
+
+echo Installing Tools 
+sudo mkdir /opt/Tools/
+cd /opt/Tools/
+sudo git clone https://github.com/SecureAuthCorp/impacket.git
+sudo git clone https://github.com/wi-fi-analyzer/fluxion.git
+sudo git clone https://github.com/balle/bluediving.git 
+sudo git clone https://github.com/Mebus/cupp 
+sudo git clone https://github.com/wi-fi-analyzer/fluxion.git
+sudo git clone https://github.com/z00z/TrojanFactory.git 
+sudo git clone https://github.com/Veil-Framework/Veil.git
+sudo git clone https://github.com/Veil-Framework/Veil-Ordnance.git
+sudo git clone https://github.com/guelfoweb/knock.git
+sudo git clone https://github.com/1N3/Sn1per.git
+sudo git clone https://github.com/nettitude/PoshC2.git
+sudo git clone https://github.com/robertdavidgraham/masscan.git
+sudo git clone https://github.com/GerbenJavado/LinkFinder.git
+sudo git clone https://github.com/Viralmaniar/Passhunt.git
+sudo git clone https://github.com/thewhiteh4t/pwnedOrNot.git
+sudo git clone https://github.com/xmendez/wfuzz.git
+sudo git clone https://github.com/arthepsy/ssh-audit.git
+sudo git clone https://github.com/honze-net/nmap-bootstrap-xsl.git
+sudo git clone https://github.com/epinna/weevely3.git
+sudo git clone https://github.com/joaogmauricio/redhttpd.git
+sudo git clone https://github.com/s0md3v/XSStrike.git
+sudo git clone https://github.com/evyatarmeged/Raccoon.git
+sudo git clone https://github.com/mschwager/fierce.git
+sudo git clone https://github.com/byt3bl33d3r/SILENTTRINITY.git
+sudo git clone https://github.com/DanMcInerney/icebreaker.git
+sudo git clone https://github.com/drvy/cloudflare-scan.git
+sudo git clone https://github.com/christophetd/CloudFlair.git
+sudo git clone https://github.com/m0rtem/CloudFail.git
+sudo git clone https://github.com/trustedsec/unicorn.git
+sudo git clone https://github.com/diego-treitos/linux-smart-enumeration.git
+sudo git clone https://github.com/stanislav-web/OpenDoor.git
+sudo git clone https://github.com/inaz2/proxy2.git
+
+echo Installing Windows Active Directory Pentest Tools 
+sudo mkdir /opt/winad/
+cd /opt/winad/
+echo General usefull Powershell Scripts
+sudo git clone https://github.com/S3cur3Th1sSh1t/WinPwn.git
+sudo git clone https://github.com/dafthack/MailSniper.git
+sudo git clone https://github.com/putterpanda/mimikittenz.git
+sudo git clone https://github.com/dafthack/DomainPasswordSpray.git
+sudo git clone https://github.com/mdavis332/DomainPasswordSpray.git
+sudo git clone https://github.com/jnqpblc/SharpSpray.git
+sudo git clone https://github.com/Arvanaghi/SessionGopher.git
+sudo git clone https://github.com/samratashok/nishang.git
+sudo git clone https://github.com/PowerShellMafia/PowerSploit.git
+sudo git clone https://github.com/fdiskyou/PowerOPS.git
+sudo git clone https://github.com/giMini/PowerMemory.git
+sudo git clone https://github.com/Kevin-Robertson/Inveigh.git
+sudo git clone https://github.com/MichaelGrafnetter/DSInternals.git
+sudo git clone https://github.com/PowerShellEmpire/PowerTools.git
+sudo git clone https://github.com/FuzzySecurity/PowerShell-Suite.git
+sudo git clone https://github.com/hlldz/Invoke-Phant0m.git
+sudo git clone https://github.com/leoloobeek/LAPSToolkit.git
+sudo git clone https://github.com/sense-of-security/ADRecon.git
+sudo git clone https://github.com/Arno0x/PowerShellScripts.git
+sudo git clone https://github.com/S3cur3Th1sSh1t/Grouper.git
+sudo git clone https://github.com/l0ss/Grouper2.git
+sudo git clone https://github.com/NetSPI/PowerShell.git
+sudo git clone https://github.com/NetSPI/PowerUpSQL.git
+sudo git clone https://github.com/Kevin-Robertson/Powermad.git
+sudo git clone https://github.com/p3nt4/PowerShdll.git
+sudo git clone https://github.com/jaredhaight/PSAttack.git
+sudo git clone https://github.com/Cn33liz/p0wnedShell.git
+sudo git clone https://github.com/cobbr/InsecurePowerShell.git
+sudo git clone https://github.com/Mr-Un1k0d3r/PowerLessShell.git
+sudo git clone https://github.com/bitsadmin/nopowershell.git
+sudo git clone https://github.com/OmerYa/Invisi-Shell.git
+sudo git clone https://github.com/Hackplayers/Salsa-tools.git
+sudo git clone https://github.com/padovah4ck/PSByPassCLM.git
+sudo git clone https://github.com/rasta-mouse/AmsiScanBufferBypass.git
+sudo git clone https://github.com/itm4n/VBA-RunPE.git
+
+
+echo Installing Backdoor finder Tools 
+sudo mkdir /opt/backdoor/
+cd /opt/backdoor/
+sudo git clone https://github.com/linuz/Sticky-Keys-Slayer.git
+sudo git clone https://github.com/ztgrace/sticky_keys_hunter.git
+sudo git clone https://github.com/countercept/doublepulsar-detection-script.git
+
+echo Installing Lateral Movement , POST Exploitation , Pivot Tools 
+sudo mkdir /opt/lateral-post-pivot/
+cd /opt/lateral-post-pivot/
+sudo git clone https://github.com/fdiskyou/hunter.git
+sudo git clone https://github.com/byt3bl33d3r/CrackMapExec.git
+sudo git clone https://github.com/nccgroup/WMIcmd.git
+sudo git clone https://github.com/byt3bl33d3r/DeathStar.git
+sudo git clone https://github.com/BloodHoundAD/BloodHound.git
+sudo git clone https://github.com/cyberark/ACLight.git
+sudo git clone https://github.com/canix1/ADACLScanner.git
+sudo git clone https://github.com/fox-it/Invoke-ACLPwn.git
+sudo git clone https://github.com/fox-it/aclpwn.py.git
+sudo git clone https://github.com/0x36/VPNPivot.git
+sudo git clone https://github.com/securesocketfunneling/ssf.git
+sudo git clone https://github.com/p3nt4/Invoke-SocksProxy.git
+sudo git clone https://github.com/sensepost/reGeorg.git
+sudo git clone https://github.com/SpiderLabs/portia.git
+sudo git clone https://github.com/Screetsec/Vegile.git
+sudo git clone https://github.com/DanMcInerney/icebreaker.git
+sudo git clone https://github.com/MooseDojo/Cobbler
+sudo git clone https://github.com/hdm/nextnet.git
+sudo git clone https://github.com/nettitude/Invoke-PowerThIEf
+sudo git clone https://github.com/trustedsec/egressbuster.git
+sudo git clone https://github.com/emilyanncr/Windows-Post-Exploitation.git
+sudo git clone https://github.com/vincentcox/bypass-firewalls-by-DNS-history.git
+sudo git clone https://github.com/mubix/post-exploitation.git
+sudo git clone https://github.com/ThunderGunExpress/BADministration.git
+sudo git clone https://github.com/Hackplayers/evil-winrm.git
+sudo git clone https://github.com/FSecureLABS/SharpGPOAbuse.git
+sudo git clone https://github.com/RedTeamOperations/PivotSuite.git
+sudo git clone https://github.com/dirkjanm/krbrelayx.git
+sudo git clone https://github.com/Mr-Un1k0d3r/SCShell.git
+
+echo Installing Persistence on windows Tools
+sudo mkdir /opt/persistence/
+cd /opt/persistence/
+sudo git clone https://github.com/fireeye/SharPersist.git
+
+echo Installing Web Application Pentest Tools
+sudo mkdir /opt/webapppentest/
+cd /opt/webapppentest/
+sudo git clone https://github.com/Tuhinshubhra/CMSeeK.git
+sudo git clone https://github.com/Dionach/CMSmap.git
+sudo git clone https://github.com/wpscanteam/wpscan.git
+sudo git clone https://github.com/Ekultek/WhatWaf.git
+sudo git clone https://github.com/wpscanteam/wpscan.git
+sudo git clone https://github.com/n00py/WPForce.git
+sudo git clone https://github.com/m4ll0k/WPSeku.git
+sudo git clone https://github.com/swisskyrepo/Wordpresscan.git
+sudo git clone https://github.com/rastating/wordpress-exploit-framework.git
+sudo git clone https://github.com/coldfusion39/domi-owned.git
+sudo git clone https://github.com/droope/droopescan.git
+sudo git clone https://github.com/whoot/Typo3Scan.git
+sudo git clone https://github.com/rezasp/joomscan.git
+
+echo Installing Web Vulnerability Scanner / Burp Plugins Tools
+sudo mkdir /opt/webvulnscans/
+cd /opt/webvulnscans/
+sudo git clone https://github.com/m4ll0k/WAScan.git
+sudo git clone https://github.com/s0md3v/XSStrike.git
+sudo git clone https://github.com/federicodotta/Java-Deserialization-Scanner.git
+sudo git clone https://github.com/d3vilbug/HackBar.git
+sudo git clone https://github.com/gyoisamurai/GyoiThon.git
+
+
+echo Installing Network- / Service-level Vulnerability Scanner Tools
+sudo mkdir /opt/networkvulnscans/
+cd /opt/networkvulnscans/
+sudo git clone https://github.com/scipag/vulscan.git
+sudo git clone https://github.com/zdresearch/OWASP-Nettacker.git
+
+echo Installing File / Directory / Parameter discovery Tools
+sudo mkdir /opt/filedirparam/
+cd /opt/filedirparam/
+sudo git clone https://github.com/OJ/gobuster.git
+sudo git clone https://github.com/nccgroup/dirble.git
+sudo git clone https://github.com/maK-/parameth.git
+sudo git clone https://github.com/s0md3v/Arjun.git
+sudo git clone https://github.com/Cillian-Collins/dirscraper.git
+sudo git clone https://github.com/hannob/snallygaster.git
+sudo git clone https://github.com/maurosoria/dirsearch.git
+sudo git clone https://github.com/s0md3v/Breacher.git
+sudo git clone https://github.com/mazen160/server-status_PWN.git
+
+echo Installing Crawler Tools
+sudo mkdir /opt/crawlers/
+cd /opt/crawlers/
+sudo git clone https://github.com/s0md3v/Photon.git
+sudo git clone https://github.com/kgretzky/dcrawl.git
+
+
+echo Installing Web Exploitation Tools
+sudo mkdir /opt/web-exploit-tools/
+cd /opt/web-exploit-tools/
+sudo git clone https://github.com/OsandaMalith/LFiFreak.git
+sudo git clone https://github.com/enjoiz/XXEinjector.git
+sudo git clone https://github.com/tennc/webshell.git
+sudo git clone https://github.com/flozz/p0wny-shell.git
+sudo git clone https://github.com/epinna/tplmap.git
+sudo git clone https://github.com/orf/xcat.git
+sudo git clone https://github.com/almandin/fuxploider.git
+sudo git clone https://github.com/nccgroup/freddy.git
+sudo git clone https://github.com/irsdl/IIS-ShortName-Scanner.git
+sudo git clone https://github.com/frohoff/ysoserial.git
+sudo git clone https://github.com/pwntester/ysoserial.net.git
+sudo git clone https://github.com/internetwache/GitTools.git
+sudo git clone https://github.com/cujanovic/SSRF-Testing.git
+sudo git clone https://github.com/ambionics/phpggc.git
+sudo git clone https://github.com/BuffaloWill/oxml_xxe.git
+sudo git clone https://github.com/tijme/angularjs-csti-scanner.git
+sudo git clone https://github.com/0xacb/viewgen.git
+sudo git clone https://github.com/Illuminopi/RCEvil.NET.git
+
+echo Installing Audit Tools
+sudo mkdir /opt/audit/
+cd /opt/audit/
+echo REST API Audit
+sudo git clone https://github.com/flipkart-incubator/Astra.git
+
+echo Installing Windows Privilege Escalation / Audit Tools
+sudo mkdir /opt/win-privilege-escalation/
+cd /opt/win-privilege-escalation/
+sudo git clone https://github.com/AlessandroZ/BeRoot.git
+sudo git clone https://github.com/rasta-mouse/Sherlock.git
+sudo git clone https://github.com/hfiref0x/UACME.git
+sudo git clone https://github.com/rootm0s/WinPwnage.git
+sudo git clone https://github.com/abatchy17/WindowsExploits.git
+sudo git clone https://github.com/dafthack/HostRecon.git
+sudo git clone https://github.com/sensepost/rattler.git
+sudo git clone https://github.com/WindowsExploits/Exploits.git
+sudo git clone https://github.com/hatRiot/token-priv.git
+sudo git clone https://github.com/Cybereason/siofra.git
+sudo git clone https://github.com/0xbadjuju/Tokenvator.git
+sudo git clone https://github.com/MojtabaTajik/Robber.git
+sudo git clone https://github.com/411Hall/JAWS.git
+sudo git clone https://github.com/GhostPack/SharpUp.git
+sudo git clone https://github.com/GhostPack/Seatbelt.git
+sudo git clone https://github.com/A-mIn3/WINspect.git
+sudo git clone https://github.com/hausec/ADAPE-Script.git
+sudo git clone https://github.com/SecWiki/windows-kernel-exploits.git
+httsudo git clone https://github.com/bitsadmin/wesng.git
+sudo git clone https://github.com/rasta-mouse/Watson.git
+sudo git clone https://github.com/itm4n/UsoDllLoader.git
+sudo git clone https://github.com/TsukiCTF/Lovely-Potato.git
+
+echo Installing Windows Privilege Escalation / Audit Tools
+sudo mkdir /opt/t3enumeration/
+cd /opt/t3enumeration/
+echo T3 Enumeration
+sudo git clone https://github.com/quentinhardy/jndiat.git
+
+echo Installing Linux Privilege Escalation / Audit Tools
+sudo mkdir /opt/linux-privilege-escalation/
+cd /opt/linux-privilege-escalation/
+sudo git clone https://github.com/mzet-/linux-exploit-suggester.git
+sudo git clone https://github.com/rebootuser/LinEnum.git
+sudo git clone https://github.com/diego-treitos/linux-smart-enumeration.git
+sudo git clone https://github.com/CISOfy/lynis.git
+sudo git clone https://github.com/AlessandroZ/BeRoot.git
+sudo git clone https://github.com/future-architect/vuls.git
+sudo git clone https://github.com/ngalongc/AutoLocalPrivilegeEscalation.git
+sudo git clone https://github.com/b3rito/yodo.git
+sudo git clone https://github.com/belane/linux-soft-exploit-suggester.git
+sudo git clone https://github.com/sevagas/swap_digger.git
+sudo git clone https://github.com/NullArray/RootHelper.git
+sudo git clone https://github.com/NullArray/MIDA-Multitool.git
+sudo git clone https://github.com/initstring/dirty_sock.git
+sudo git clone https://github.com/jondonas/linux-exploit-suggester-2.git
+sudo git clone https://github.com/sosdave/KeyTabExtract.git
+sudo git clone https://github.com/DominicBreuker/pspy.git
+sudo git clone https://github.com/itsKindred/modDetective.git
+sudo git clone https://github.com/nongiach/sudo_inject.git
+sudo git clone https://github.com/Anon-Exploiter/SUID3NUM.git
+sudo git clone https://github.com/nccgroup/GTFOBLookup.git
+sudo git clone https://github.com/TH3xACE/SUDO_KILLER.git
+https://raw.githubusercontent.com/sleventyeleven/linuxprivchecker/master/linuxprivchecker.py
+sudo git clone https://github.com/inquisb/unix-privesc-check.git
+
+
+echo Installing Exfiltration Tools
+sudo mkdir /opt/exfiltration/
+cd /opt/exfiltration/
+
+sudo git clone https://github.com/gentilkiwi/mimikatz.git
+sudo git clone https://github.com/GhostPack/SafetyKatz.git
+sudo git clone https://github.com/GhostPack/Rubeus.git
+sudo git clone https://github.com/Arvanaghi/SessionGopher.git
+sudo git clone https://github.com/peewpw/Invoke-WCMDump.git
+sudo git clone https://github.com/tiagorlampert/sAINT.git
+sudo git clone https://github.com/AlessandroZ/LaZagneForensic.git
+sudo git clone https://github.com/eladshamir/Internal-Monologue.git
+sudo git clone https://github.com/djhohnstein/SharpWeb.git
+sudo git clone https://github.com/FSecureLABS/SharpClipHistory.git
+sudo git clone https://github.com/outflanknl/Dumpert.git
+sudo git clone https://github.com/b4rtik/ATPMiniDump.git
+sudo git clone https://github.com/aas-n/spraykatz.git
+sudo git clone https://github.com/0x09AL/RdpThief.git
+
+echo Installing Credential harvesting Linux Specific Tools
+sudo mkdir /opt/linux-cred-harvest/
+cd /opt/linux-cred-harvest/
+
+sudo git clone https://github.com/huntergregal/mimipenguin.git
+sudo git clone https://github.com/n1nj4sec/mimipy.git
+sudo git clone https://github.com/dirtycow/dirtycow.github.io.git
+sudo git clone https://github.com/mthbernardes/sshLooterC.git
+sudo git clone https://github.com/blendin/3snake.git
+sudo git clone https://github.com/0xmitsurugi/gimmecredz.git
+
+echo Installing Data Exfiltration - DNS/ICMP/Wifi Exfiltration Tools
+sudo mkdir /opt/data-exfil/
+cd /opt/data-exfil/
+sudo git clone https://github.com/FortyNorthSecurity/Egress-Assess.git
+sudo git clone https://github.com/p3nt4/Invoke-TmpDavFS.git
+sudo git clone https://github.com/DhavalKapil/icmptunnel.git
+sudo git clone https://github.com/iagox86/dnscat2.git
+sudo git clone https://github.com/Arno0x/DNSExfiltrator.git
+sudo git clone https://github.com/spieglt/FlyingCarpet.git
+sudo git clone https://github.com/SECFORCE/Tunna.git
+
+echo Installing git exposure Tools
+sudo mkdir /opt/git-exposure/
+cd /opt/git-exposure/
+sudo git clone https://github.com/dxa4481/truffleHog.git
+sudo git clone https://github.com/zricethezav/gitleaks.git
+
+echo Installing data exfiltration win/linux Tools
+sudo mkdir /opt/data-exfil-win-linux/
+cd /opt/data-exfil-win-linux/
+sudo git clone https://github.com/AlessandroZ/LaZagne.git
+sudo git clone https://github.com/Dionach/PassHunt.git
+sudo git clone https://github.com/vulmon/Vulmap.git
+
+echo Installing Reverse Engineering / decompiler Tools
+sudo mkdir /opt/reverse-engineering-decompile/
+cd /opt/reverse-engineering-decompile/
+sudo git clone https://github.com/mattifestation/PowerShellArsenal.git
+sudo git clone https://github.com/0xd4d/dnSpy.git
+sudo git clone https://github.com/NationalSecurityAgency/ghidra.git
+sudo git clone https://github.com/icsharpcode/ILSpy.git
+
+
+echo Installing Forensics Tools
+sudo mkdir /opt/forensics/
+cd /opt/forensics/
+sudo git clone https://github.com/Invoke-IR/PowerForensics.git
+sudo git clone https://github.com/Neo23x0/Loki.git
+sudo git clone https://github.com/gfoss/PSRecon.git
+
+echo Installing Network Attacks Tools
+sudo mkdir /opt/network-attacks/
+cd /opt/network-attacks/
+sudo git clone https://github.com/bettercap/bettercap.git
+sudo git clone https://github.com/SpiderLabs/Responder.git
+sudo git clone https://github.com/lgandx/Responder.git
+sudo git clone https://github.com/evilsocket/bettercap.git
+sudo git clone https://github.com/r00t-3xp10it/morpheus.git
+sudo git clone https://github.com/fox-it/mitm6.git
+sudo git clone https://github.com/DanMcInerney/LANs.py.git
+
+echo Installing Specific MITM service Exploitation Tools
+sudo mkdir /opt/mitm-exploitation/
+cd /opt/mitm-exploitation/
+sudo git clone https://github.com/jtesta/ssh-mitm.git
+sudo git clone https://github.com/pimps/wsuxploit.git
+sudo git clone https://github.com/SySS-Research/Seth.git
+sudo git clone https://github.com/infobyte/evilgrade.git
+sudo git clone https://github.com/samdenty/injectify.git
+sudo git clone https://github.com/skorov/ridrelay.git
+sudo git clone https://github.com/Kevin-Robertson/Invoke-TheHash.git
+
+echo Installing Sniffing / Evaluation / Filtering Tools
+sudo mkdir /opt/mitm-exploitation/
+cd /opt/mitm-exploitation/
+sudo git clone https://github.com/DanMcInerney/net-creds.git
+sudo git clone https://github.com/lgandx/PCredz.git
+sudo git clone https://github.com/Srinivas11789/PcapXray.git
+
+echo Installing Scanner / Exploitation-Frameworks / Automation Tools
+sudo mkdir /opt/mitm-exploitation/
+cd /opt/mitm-exploitation/
+sudo git clone https://github.com/threat9/routersploit.git
+sudo git clone https://github.com/nccgroup/autopwn.git
+sudo git clone https://github.com/1N3/Sn1per.git
+sudo git clone https://github.com/byt3bl33d3r/CrackMapExec.git
+sudo git clone https://github.com/Cn33liz/p0wnedShell.git
+sudo git clone https://github.com/archerysec/archerysec.git
+sudo git clone https://github.com/vulnersCom/nmap-vulners.git
+sudo git clone https://github.com/m4ll0k/AutoNSE.git
+sudo git clone https://github.com/v3n0m-Scanner/V3n0M-Scanner.git
+sudo git clone https://github.com/zdresearch/OWASP-Nettacker.git
+
+echo Installing Default Credential Scanner Tools
+sudo mkdir /opt/cred-scanners/
+cd /opt/cred-scanners/
+sudo git clone https://github.com/ztgrace/changeme.git
+sudo git clone https://github.com/FortyNorthSecurity/EyeWitness.git
+sudo git clone https://github.com/byt3bl33d3r/WitnessMe.git
+
+echo Installing Default Credential Lookup Tools
+sudo mkdir /opt/cred-default-lookup/
+cd /opt/cred-default-lookup/
+sudo git clone https://github.com/Viralmaniar/Passhunt.git
+
+echo Installing Payload Generation / AV-Evasion / Malware Creation Tools
+sudo mkdir /opt/payload-evasion-malware/
+cd /opt/payload-evasion-malware/
+sudo git clone https://github.com/nccgroup/Winpayloads.git
+sudo git clone https://github.com/nccgroup/Winpayloads.git
+sudo git clone https://github.com/xillwillx/tricky.lnk.git
+sudo git clone https://github.com/trustedsec/unicorn.git
+sudo git clone https://github.com/z0noxz/powerstager.git
+sudo git clone https://github.com/curi0usJack/luckystrike.git
+sudo git clone https://github.com/enigma0x3/Generate-Macro.git
+sudo git clone https://github.com/Cn33liz/JSMeter.git
+sudo git clone https://github.com/Mr-Un1k0d3r/MaliciousMacroGenerator.git
+sudo git clone https://github.com/Cn33liz/StarFighters.git
+sudo git clone https://github.com/BorjaMerino/Pazuzu.git
+sudo git clone https://github.com/FSecureLABS/wePWNise.git
+sudo git clone https://github.com/Mr-Un1k0d3r/UniByAv.git
+sudo git clone https://github.com/govolution/avet.git
+sudo git clone https://github.com/Pepitoh/VBad.git
+sudo git clone https://github.com/mdsecactivebreach/CACTUSTORCH.git
+sudo git clone https://github.com/D4Vinci/Dr0p1t-Framework.git
+sudo git clone https://github.com/g0tmi1k/msfpc.git
+sudo git clone https://github.com/bhdresh/CVE-2017-0199.git
+sudo git clone https://github.com/GreatSCT/GreatSCT.git
+sudo git clone https://github.com/mthbernardes/rsg.git
+sudo git clone https://github.com/sevagas/macro_pack.git
+sudo git clone https://github.com/mdsecactivebreach/SharpShooter.git
+sudo git clone https://github.com/hlldz/SpookFlare.git
+sudo git clone https://github.com/0xdeadbeefJERKY/Office-DDE-Payloads.git
+sudo git clone https://github.com/paranoidninja/CarbonCopy.git
+sudo git clone https://github.com/peewpw/Invoke-PSImage.git
+sudo git clone https://github.com/Arvanaghi/CheckPlease.git
+sudo git clone https://github.com/trustedsec/nps_payload.git
+sudo git clone https://github.com/stormshadow07/HackTheWorld.git
+sudo git clone https://github.com/r00t-3xp10it/FakeImageExploiter.git
+sudo git clone https://github.com/nccgroup/demiguise.git
+
+echo Installing Android Tools
+sudo mkdir /opt/android/
+cd /opt/android/
+sudo git clone https://github.com/sensepost/kwetza.git
+
+echo Installing External Penetration Testing Tools
+sudo mkdir /opt/external-pentest/
+cd /opt/external-pentest/
+sudo git clone https://github.com/aboul3la/Sublist3r.git
+sudo git clone https://github.com/TheRook/subbrute.git
+sudo git clone https://github.com/michenriksen/aquatone.git
+sudo git clone https://github.com/darkoperator/dnsrecon.git
+sudo git clone https://github.com/fwaeytens/dnsenum.git
+sudo git clone https://github.com/s0md3v/Striker.git
+sudo git clone https://github.com/leebaird/discover.git
+sudo git clone https://github.com/eldraco/domain_analyzer.git
+sudo git clone https://github.com/caffix/amass.git
+sudo git clone https://github.com/subfinder/subfinder.git
+sudo git clone https://github.com/TypeError/domained.git
+sudo git clone https://github.com/SilverPoision/Rock-ON.git
+
+echo Installing File Search / Metadata extraction Tools
+sudo mkdir /opt/file-search-meta-extract/
+cd /opt/file-search-meta-extract/
+sudo git clone https://github.com/dafthack/PowerMeta.git
+sudo git clone https://github.com/ElevenPaths/FOCA.git
+
+echo Installing Scanner Tools
+sudo mkdir /opt/scanner/
+cd /opt/scanner/
+sudo git clone https://github.com/vesche/scanless.git
+sudo git clone https://github.com/1N3/Sn1per.git
+sudo git clone https://github.com/DanMcInerney/pentest-machine.git
+
+echo Installing Email Gathering Tools
+sudo mkdir /opt/email-gathering/
+cd /opt/email-gathering/
+sudo git clone https://github.com/leapsecurity/InSpy.git
+sudo git clone https://github.com/dchrastil/ScrapedIn.git
+sudo git clone https://github.com/SimplySecurity/SimplyEmail.git
+sudo git clone https://github.com/clr2of8/GatherContacts.git
+sudo git clone https://github.com/s0md3v/Zen.git
+sudo git clone https://github.com/m8r0wn/CrossLinked.git
+sudo git clone https://github.com/m4ll0k/Infoga.git
+
+echo Installing Domain Auth + Exploitation Tools
+sudo mkdir /opt/domain-auth-exploitation/
+cd /opt/domain-auth-exploitation/
+sudo git clone https://github.com/nyxgeek/o365recon.git
+sudo git clone https://github.com/True-Demon/raindance.git
+sudo git clone https://github.com/dafthack/MailSniper.git
+sudo git clone https://github.com/sensepost/ruler.git
+sudo git clone https://github.com/Greenwolf/Spray.git
+sudo git clone https://github.com/sensepost/SPartan.git
+sudo git clone https://github.com/nyxgeek/lyncsmash.git
+sudo git clone https://github.com/byt3bl33d3r/SprayingToolkit.git
+sudo git clone https://github.com/mdsecresearch/LyncSniper.git
+
+
+echo Installing Specific Service Scanning / Exploitation Tools
+sudo mkdir /opt/service-scan-exploitation/
+cd /opt/service-scan-exploitation/
+sudo git clone https://github.com/galkan/crowbar.git
+sudo git clone https://github.com/1N3/BruteX.git
+sudo git clone https://github.com/x90skysn3k/brutespray.git
+sudo git clone https://github.com/lanjelot/patator.git
+sudo git clone https://github.com/dafthack/RDPSpray.git
+
+echo SNMP
+sudo mkdir /opt/SNMP/
+cd /opt/SNMP/
+sudo git clone https://github.com/hatlord/snmpwn.git
+
+echo Open X11
+sudo mkdir /opt/OpenX11/
+cd /opt/OpenX11/
+sudo git clone https://github.com/sensepost/xrdp.git
+
+echo Printers
+sudo mkdir /opt/Printers/
+cd /opt/Printers/
+sudo git clone https://github.com/RUB-NDS/PRET.git
+sudo git clone https://github.com/BusesCanFly/PRETty.git
+
+echo MSSQL
+sudo mkdir /opt/MSSQL/
+cd /opt/MSSQL/
+sudo git clone https://github.com/quentinhardy/msdat.git
+
+echo Oracle 
+sudo mkdir /opt/Oracle/
+cd /opt/Oracle/
+sudo git clone https://github.com/quentinhardy/odat.git
+
+echo IKE 
+sudo mkdir /opt/IKE/
+cd /opt/IKE/
+sudo git clone https://github.com/SpiderLabs/ikeforce.git
+
+echo SMB Null Session Exploitation 
+sudo mkdir /opt/SMB/
+cd /opt/SMB/
+sudo git clone https://github.com/m8r0wn/nullinux.git
+
+echo Intel AMT Exploitation
+sudo mkdir /opt/AMT/
+cd /opt/AMT/
+sudo git clone https://github.com/Coalfire-Research/DeathMetal.git
+
+echo SAP Exploitation
+sudo mkdir /opt/SAP/
+cd /opt/SAP/
+sudo git clone https://github.com/comaeio/OPCDE.git
+sudo git clone https://github.com/gelim/sap_ms.git
+sudo git clone https://github.com/chipik/SAP_GW_RCE_exploit.git
+
+echo General Recon 
+sudo mkdir /opt/Recon/
+cd /opt/Recon/
+sudo git clone https://github.com/FortyNorthSecurity/EyeWitness.git
+
+echo C2 Command & Control Frameworks
+sudo mkdir /opt/C2/
+cd /opt/C2/
+sudo git clone https://github.com/n1nj4sec/pupy.git
+sudo git clone https://github.com/nettitude/PoshC2.git
+sudo git clone https://github.com/FortyNorthSecurity/WMImplant.git
+sudo git clone https://github.com/quasar/QuasarRAT.git
+sudo git clone https://github.com/EmpireProject/Empire.git
+sudo git clone https://github.com/zerosum0x0/koadic.git
+sudo git clone https://github.com/Mr-Un1k0d3r/ThunderShell.git
+sudo git clone https://github.com/Ne0nd0g/merlin.git
+sudo git clone https://github.com/Arno0x/WebDavC2.git
+sudo git clone https://github.com/byt3bl33d3r/SILENTTRINITY.git
+sudo git clone https://github.com/Arno0x/WSC2.git
+sudo git clone https://github.com/BC-SECURITY/Empire.git
+sudo git clone https://github.com/cobbr/Covenant.git
+sudo git clone https://github.com/BishopFox/sliver.git
+
+echo Android 
+sudo mkdir /opt/Android/
+cd /opt/Android/
+sudo git clone https://github.com/AhMyth/AhMyth-Android-RAT.git
+
+echo Linux MacOSX Specific
+sudo mkdir /opt/lin-osx/
+cd /opt/lin-osx/
+sudo git clone https://github.com/neoneggplant/EggShell.git
+
+echo Wifi Tools
+sudo mkdir /opt/Wifi/
+cd /opt/Wifi/
+sudo git clone https://github.com/wifiphisher/wifiphisher.git
+sudo git clone https://github.com/P0cL4bs/WiFi-Pumpkin.git
+sudo git clone https://github.com/s0lst1c3/eaphammer.git
+sudo git clone https://github.com/h0nus/RogueSploit.git
+sudo git clone https://github.com/Tylous/SniffAir.git
+sudo git clone https://github.com/FluxionNetwork/fluxion.git
+sudo git clone https://github.com/derv82/wifite2.git
+sudo git clone https://github.com/ICSec/airpwn-ng.git
+sudo git clone https://github.com/xdavidhu/mitmAP.git
+sudo git clone https://github.com/ZerBea/hcxdumptool.git
+
+echo Android / Nethunter 
+sudo mkdir /opt/Nethunter/
+cd /opt/Nethunter/
+sudo git clone https://github.com/faizann24/wifi-bruteforcer-fsecurify.git
+sudo git clone https://github.com/chrisk44/Hijacker.git
+
+echo Raspberri PI Exploitation
+sudo mkdir /opt/PI/
+cd /opt/PI/
+sudo git clone https://github.com/secgroundzero/warberry.git
+sudo git clone https://github.com/samyk/poisontap.git
+sudo git clone https://github.com/mame82/P4wnP1.git
+sudo git clone https://github.com/mame82/P4wnP1_aloa.git
+sudo git clone https://github.com/pi-hole/pi-hole.git
+
+
+echo Physical Security / HID/ETH Emulator 
+sudo mkdir /opt/Emulator/
+cd /opt/Emulator/
+sudo git clone https://github.com/carmaa/inception.git
+sudo git clone https://github.com/samratashok/Kautilya.git
+sudo git clone https://github.com/ufrisk/pcileech.git
+sudo git clone https://github.com/Screetsec/Brutal.git
+sudo git clone https://github.com/insecurityofthings/jackit.git
+sudo git clone https://github.com/BastilleResearch/mousejack.git
+
+
+echo SE Social Engineering
+sudo mkdir /opt/SE/
+cd /opt/SE/
+sudo git clone https://github.com/kgretzky/evilginx.git
+sudo git clone https://github.com/threatexpress/domainhunter.git
+sudo git clone https://github.com/netevert/dnsmorph.git
+sudo git clone https://github.com/elceef/dnstwist.git
+
+echo MITM mitm-exploitation
+sudo mkdir /opt/MITM/
+cd /opt/MITM/
+sudo git clone https://github.com/quickbreach/SMBetray.git
+sudo git clone https://github.com/SteveLTN/https-portal.git
+sudo git clone https://github.com/ryhanson/phishery.git
+sudo git clone https://github.com/Dviros/CredsLeaker.git
+
+echo Defender-Guides 
+sudo mkdir /opt/Defender-Guides/
+cd /opt/Defender-Guides/
+sudo git clone https://github.com/PaulSec/awesome-windows-domain-hardening.git
+sudo git clone https://github.com/Invoke-IR/Uproot.git
+sudo git clone https://github.com/danielbohannon/Revoke-Obfuscation.git
+sudo git clone https://github.com/0xd4d/de4dot.git
+sudo git clone https://github.com/securitywithoutborders/hardentools.git
+sudo git clone https://github.com/x0rz/phishing_catcher.git
+sudo git clone https://github.com/Ben0xA/PowerShellDefense.git
+sudo git clone https://github.com/emposha/PHP-Shell-Detector.git
+sudo git clone https://github.com/LordNoteworthy/al-khaser.git
+sudo git clone https://github.com/Security-Onion-Solutions/security-onion.git
+sudo git clone https://github.com/ptresearch/AttackDetection.git
+sudo git clone https://github.com/MHaggis/hunt-detect-prevent.git
+sudo git clone https://github.com/JPCERTCC/LogonTracer.git
+sudo git clone https://github.com/lithnet/ad-password-protection.git
+sudo git clone https://github.com/R3MRUM/PSDecode.git
+sudo git clone https://github.com/matterpreter/DefenderCheck.git
+
+echo Wordlists / Wordlist generators 
+sudo mkdir /opt/wordlists/
+cd /opt/wordlists/
+sudo git clone https://github.com/danielmiessler/SecLists.git
+sudo git clone https://github.com/berzerk0/Probable-Wordlists.git
+sudo git clone https://github.com/govolution/betterdefaultpasslist.git
+sudo git clone https://github.com/insidetrust/statistically-likely-usernames.git
+sudo git clone https://github.com/LandGrey/pydictor.git
+sudo git clone https://github.com/sc0tfree/mentalist.git
+sudo git clone https://github.com/skahwah/wordsmith.git
+sudo git clone https://github.com/1N3/IntruderPayloads.git
+sudo git clone https://github.com/fuzzdb-project/fuzzdb.git
+sudo git clone https://github.com/Bo0oM/fuzz.txt.git
+sudo git clone https://github.com/laconicwolf/Password-Scripts.git
+
+echo Obfuscation 
+sudo mkdir /opt/Obfuscation/
+cd /opt/Obfuscation/
+sudo git clone https://github.com/xoreaxeaxeax/movfuscator.git
+sudo git clone https://github.com/danielbohannon/Invoke-DOSfuscation.git
+sudo git clone https://github.com/unixpickle/gobfuscate.git
+sudo git clone https://github.com/javascript-obfuscator/javascript-obfuscator.git
+sudo git clone https://github.com/danielbohannon/Invoke-Obfuscation.git
+
+echo source-code-binary-analysis 
+sudo mkdir /opt/source-code-binary-analysis/
+cd /opt/source-code-binary-analysis/
+sudo git clone https://github.com/avast/retdec.git
+sudo git clone https://github.com/MobSF/Mobile-Security-Framework-MobSF.git
+
+echo source-code-analysis 
+sudo mkdir /opt/source-code-analysis/
+cd /opt/source-code-analysis/
+sudo git clone https://github.com/mre/awesome-static-analysis.git
+sudo git clone https://github.com/eslint/eslint.git
+sudo git clone https://github.com/dpnishant/jsprime.git
+sudo git clone https://github.com/phpstan/phpstan.git
+
+echo MISC 
+sudo mkdir /opt/MISC/
+cd /opt/MISC/
+sudo git clone https://github.com/pentestmonkey/gateway-finder.git
+sudo git clone https://github.com/Cybellum/DoubleAgent.git
+sudo git clone https://github.com/ytisf/theZoo.git
+sudo git clone https://github.com/kbandla/APTnotes.git
+sudo git clone https://github.com/WindowsLies/BlockWindows.git
+sudo git clone https://github.com/secrary/InjectProc.git
+sudo git clone https://github.com/AlsidOfficial/WSUSpendu.git
+sudo git clone https://github.com/SigPloiter/SigPloit.git
+sudo git clone https://github.com/virajkulkarni14/WebDeveloperSecurityChecklist.git
+sudo git clone https://github.com/PowerShell/PowerShell.git
+sudo git clone https://github.com/landhb/HideProcess.git
+sudo git clone https://github.com/meliht/Mr.SIP.git
+sudo git clone https://github.com/XiphosResearch/exploits.git
+sudo git clone https://github.com/fox-it/cve-2019-1040-scanner.git
+sudo git clone https://github.com/worawit/MS17-010.git
+sudo git clone https://github.com/DiabloHorn/yara4pentesters.git
+sudo git clone https://github.com/D4Vinci/Cr3dOv3r.git
+sudo git clone https://github.com/a2u/CVE-2018-7600.git
+sudo git clone https://github.com/joxeankoret/CVE-2017-7494.git
+sudo git clone https://github.com/D4Vinci/One-Lin3r.git
+sudo git clone https://github.com/0x00-0x00/ShellPop.git
+sudo git clone https://github.com/Acceis/crypto_identifier.git
+sudo git clone https://github.com/sensepost/UserEnum.git
+sudo git clone https://github.com/LOLBAS-Project/LOLBAS.git
+sudo git clone https://github.com/peewpw/Invoke-BSOD.git
+sudo git clone https://github.com/mtivadar/windows10_ntfs_crash_dos.git
+sudo git clone https://github.com/deepzec/Bad-Pdf.git
+sudo git clone https://github.com/SecureAuthCorp/impacket.git
+sudo git clone https://github.com/blacknbunny/libSSH-Authentication-Bypass.git
+sudo git clone https://github.com/vletoux/pingcastle.git
+sudo git clone https://github.com/OneLogicalMyth/zeroday-powershell.git
+sudo git clone https://github.com/smicallef/spiderfoot.git
+sudo git clone https://github.com/ShawnDEvans/smbmap.git
+sudo git clone https://github.com/Coalfire-Research/java-deserialization-exploits.git
+sudo git clone https://github.com/quentinhardy/jndiat.git
+sudo git clone https://github.com/RhinoSecurityLabs/GCPBucketBrute.git
+sudo git clone https://github.com/NetSPI/MicroBurst.git
+sudo git clone https://github.com/khast3x/h8mail.git
+sudo git clone https://github.com/dirkjanm/adidnsdump.git
+sudo git clone https://github.com/gquere/pwn_jenkins.git
+sudo git clone https://github.com/JavelinNetworks/IR-Tools.git
+sudo git clone https://github.com/taviso/ctftool.git
+sudo git clone https://github.com/jedisct1/dsvpn.git
+sudo git clone https://github.com/GoSecure/dtd-finder.git
+sudo git clone https://github.com/tyranid/DotNetToJScript.git
+sudo git clone https://github.com/cfreal/exploits.git
+sudo git clone https://github.com/adamdriscoll/snek.git
+
+
+echo Anonymous / Tor Projects 
+sudo mkdir /opt/TOR/
+cd /opt/TOR/
+sudo git clone https://github.com/realgam3/pymultitor.git
+sudo git clone https://github.com/Und3rf10w/kali-anonsurf.git
+sudo git clone https://github.com/GouveaHeitor/nipe.git
+sudo git clone https://github.com/cryptolok/GhostInTheNet.git
+sudo git clone https://github.com/DanMcInerney/elite-proxy-finder.git
+
+echo Exploit-Search 
+sudo mkdir /opt/Exploit-Search/
+cd /opt/Exploit-Search/
+sudo git clone https://github.com/vulnersCom/getsploit.git
+sudo git clone https://github.com/1N3/Findsploit.git
+
+echo Industrial-Control-Systems
+sudo mkdir /opt/Industrial-Control-Systems/
+cd /opt/Industrial-Control-Systems/
+sudo git clone https://github.com/dark-lbp/isf.git
+sudo git clone https://github.com/klsecservices/s7scan.git
+sudo git clone https://github.com/w3h/isf.git
+
+echo OTHER
+sudo mkdir /opt/OTHER/
+cd /opt/OTHER/
+echo Network access control bypass
+sudo git clone https://github.com/scipag/nac_bypass.git
+
+echo JMX Exploitation
+sudo git clone https://github.com/mogwailabs/mjet.git
+sudo git clone https://github.com/siberas/sjet.git
+
+echo  Red Team infrastructure setup
+sudo git clone https://github.com/obscuritylabs/RAI.git
+
+echo Redis Exploitation
+sudo git clone https://github.com/Ridter/redis-rce.git
+
+echo SSRF Exploitation
+sudo git clone https://github.com/swisskyrepo/SSRFmap.git
+
+echo LFI exploitation
+sudo git clone https://github.com/mzfr/liffy.git
+
+echo MondoDB Redis Couchdb Exploitation
+sudo git clone https://github.com/torque59/Nosql-Exploitation-Framework.git
+
+echo RMI attacks
+sudo git clone https://github.com/NickstaDB/BaRMIe.git
+
+echo JSON Web Token Analysis / Exploitation
+sudo git clone https://github.com/ticarpi/jwt_tool.git
+
+echo Docker Exploitation
+sudo git clone https://github.com/AbsoZed/DockerPwn.py.git
+https://raw.githubusercontent.com/swisskyrepo/PayloadsAllTheThings/master/CVE%20Exploits/Docker%20API%20RCE.py.git
+
+echo PHP exploits
+sudo git clone https://github.com/neex/phuip-fpizdam.git
+
+echo Cloud attack tools
+sudo git clone https://github.com/mdsecactivebreach/o365-attack-toolkit.git
+
+echo Bluetooth / low energy
+sudo git clone https://github.com/ojasookert/CVE-2017-0785.git
+sudo git clone https://github.com/evilsocket/bleah.git
+sudo git clone https://github.com/virtualabs/btlejack.git
+
+echo Wireless / Radio Exploitation
+sudo git clone https://github.com/mame82/LOGITacker.git
+
+echo APT / Malware Emulation / Defense Check
+sudo git clone https://github.com/TryCatchHCF/DumpsterFire.git
+sudo git clone https://github.com/NextronSystems/APTSimulator.git
+sudo git clone https://github.com/redhuntlabs/RedHunt-OS.git
+sudo git clone https://github.com/guardicore/monkey.git
+
+ASPX Webshells
+sudo git clone https://github.com/antonioCoco/SharPyShell.git
+
+PHP Webshells
+sudo git clone https://github.com/flozz/p0wny-shell.git
+
+echo Hash-Crack
+sudo mkdir /opt/Hash-Crack/
+cd /opt/Hash-Crack/
+sudo git clone https://github.com/k4m4/dcipher-cli.git
+sudo git clone https://github.com/s0md3v/Hash-Buster.git
+sudo git clone https://github.com/initstring/passphrase-wordlist.git
+
+echo OSCP
+sudo mkdir /opt/OSCP/
+cd /opt/OSCP/
+sudo git clone https://github.com/sailay1996/expl-bin.git
+sudo git clone https://github.com/CyDefUnicorn/OSCP-Archives.git
+
+echo Other Tool-Lists / Cheat Sheets
+sudo mkdir /opt/tools-cheat-sheets/
+cd /opt/tools-cheat-sheets/
+sudo git clone https://github.com/Hack-with-Github/Awesome-Hacking.git
+sudo git clone https://github.com/enaqx/awesome-pentest.git
+sudo git clone https://github.com/HarmJ0y/CheatSheets.git
+sudo git clone https://github.com/vysecurity/RedTips.git
+sudo git clone https://github.com/toolswatch/blackhat-arsenal-tools.git
+sudo git clone https://github.com/jivoi/awesome-osint.git
+sudo git clone https://github.com/qazbnm456/awesome-cve-poc.git
+sudo git clone https://github.com/swisskyrepo/PayloadsAllTheThings.git
+sudo git clone https://github.com/dsasmblr/hacking-online-games.git
+sudo git clone https://github.com/meirwah/awesome-incident-response.git
+sudo git clone https://github.com/carpedm20/awesome-hacking.git
+sudo git clone https://github.com/rshipp/awesome-malware-analysis.git
+sudo git clone https://github.com/thibmaek/awesome-raspberry-pi.git
+sudo git clone https://github.com/vitalysim/Awesome-Hacking-Resources.git
+sudo git clone https://github.com/mre/awesome-static-analysis.git
+sudo git clone https://github.com/coreb1t/awesome-pentest-cheat-sheets.git
+sudo git clone https://github.com/infosecn1nja/Red-Teaming-Toolkit.git
+sudo git clone https://github.com/rmusser01/Infosec_Reference.git
+sudo git clone https://github.com/trimstray/the-book-of-secret-knowledge.git
+sudo git clone https://github.com/qazbnm456/awesome-web-security.git
+sudo git clone https://github.com/chryzsh/awesome-windows-security.git
+sudo git clone https://github.com/blaCCkHatHacEEkr/PENTESTING-BIBLE.git
+sudo git clone https://github.com/We5ter/Scanners-Box.git
+sudo git clone https://github.com/smgorelik/Windows-RCE-exploits.git
+sudo git clone https://github.com/trustedsec/physical-docs.git
+
+echo Preparing the Webserver 
+
+mkdir /var/www/html
+cd /var/www/html
+
+wget https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/raw/master/linPEAS/linpeas.sh
+wget https://github.com/mzet-/linux-exploit-suggester/blob/master/linux-exploit-suggester.sh
+wget https://github.com/1N3/PrivEsc/raw/master/linux/scripts/linux_privesc.sh
+wget https://github.com/rebootuser/LinEnum/raw/master/LinEnum.sh
+wget https://github.com/DominicBreuker/pspy/releases/download/v1.2.0/pspy32
+wget https://github.com/DominicBreuker/pspy/releases/download/v1.2.0/pspy64
+wget https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/raw/master/winPEAS/winPEASexe/winPEAS/bin/Obfuscated%20Releases/winPEASany.exe
+wget https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/raw/master/winPEAS/winPEASexe/winPEAS/bin/Obfuscated%20Releases/winPEASx64.exe
+wget https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/raw/master/winPEAS/winPEASexe/winPEAS/bin/Obfuscated%20Releases/winPEASx86.exe
+wget https://github.com/BloodHoundAD/BloodHound/blob/master/Ingestors/SharpHound.exe
+wget https://github.com/BloodHoundAD/BloodHound/blob/master/Ingestors/SharpHound.ps1
+wget https://github.com/PowerShellMafia/PowerSploit/raw/master/Privesc/PowerUp.ps1
+wget https://0xprashant.github.io/pages/hashdump.exe
+wget https://eternallybored.org/misc/netcat/netcat-win32-1.11.zip
+unzip netcat-win32-1.11.zip
+cp netcat-1.11/nc.exe .
+cp netcat-1.11/nc64.exe .
+cp /usr/share/webshells/aspx/cmdasp.aspx /var/www/html
+cp /usr/share/webshells/php/php-reverse-shell.php /var/www/html
+echo Edit File: nano php-reverse-shell.php For Remote Connection: IP & Port
+
+echo Installing Interactive Applications: snort
+echo Almost done! Please hold:
+sudo apt-get install snort -y
+
+echo Cleaning the cache: 
+sudo apt-get clean --dry-run
+
+echo Removing files from cache
+rm -r /var/cache/apt/archives/* /var/cache/apt/archives/partial/*
+rm -r /var/lib/apt/lists/partial/*
+rm -r /var/cache/apt/pkgcache.bin 
+rm -r /var/cache/apt/srcpkgcache.bin
+
+echo Checking to see if it's still needs cleaning
+sudo apt-get clean
+sudo apt-get autoclean 
+sudo apt-get autoremove 
+echo Cleaned-up cached repository
+echo
+echo 
+echo Listing the optional software directory
+ls -l /opt/ 
+echo 
+echo Syn
+echo
+echo The script has ended. You're up-2-date and the Hacking Software is installed in /opt/
+echo Use ls -l /opt/ to see the categories. 
+echo
+echo Ack
+echo 
+echo Best regards,
+echo Martijn Kamminga
+echo
+echo Fin
+echo 
+echo https://www.twitter.com/InfoSecISee2it
+echo https://www.linkedin.com/in/isee2it
+echo https://www.hackthebox.eu/profile/201424
+echo https://www.isee2it.nl 
+echo 
+echo Rst
